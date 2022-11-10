@@ -52,6 +52,7 @@ body {
     justify-content: space-around;
     padding-bottom: 115px;
     padding-top: 115px;
+    position: relative;
   }
   .about h1 {
     font-size: 70px;
@@ -460,4 +461,10 @@ card p {
 .promo__text button i {
   font-size: 15px;
   margin-left: 5px;
+}
+.orb-canvas {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  right: 0;
 }
